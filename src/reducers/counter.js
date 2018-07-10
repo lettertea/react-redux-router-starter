@@ -1,4 +1,4 @@
-import { increment, incrementAsync, decrement, decrementAsync } from "../actions/types";
+import { INCREMENT_REQUESTED, INCREMENT, DECREMENT_REQUESTED, DECREMENT } from "../actions/types";
 
 const initialState = {
   count: 0,
